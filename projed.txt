@@ -1,1 +1,2 @@
-In the project, when the garbage level in the dustbin reaches its maximum level, it is sensed by the sensor and message is sent to the municipal office through GSM
+In the project, when the garbage level in the dustbin reaches its maximum level, it is sensed by the sensor and message is sent to the municipal office through GSM.
+Ultrasonic sensor is used for detecting the garbage level in the garbage bin.
