@@ -1,0 +1,1 @@
+In the project, when the garbage level in the dustbin reaches its maximum level, it is sensed by the sensor and message is sent to the municipal office through GSM

@@ -1,0 +1,40 @@
+# | Tuple
+************************************************************************************************************************************************************
+
+
+The word Tuple means “a data structure which consists of the multiple parts”. So tuple is a data structure which gives you the easiest way to represent a data set which has multiple values that may/may not be related to each other. It introduced in .NET Framework 4.0. In tuple, you can add elements from 1 to 8. If you try to add elements greater than eight, then the compiler will throw an error. Tuples are generally used when you want to create a data structure which contains objects with their properties and you don’t want to create a separate type for that.
+
+Features of Tuples:
+
+It allows us to represent multiple data into a single data set.
+It allows us to create, manipulate, and access data set.
+It return multiple values from a method without using out parameter.
+It can also store duplicate elements.
+It allows us to pass multiple values to a method with the help of single parameters.
+What is the need of C# Tuples?
+Before tuples, we have three ways to return more than one value from the method in C# which are Using Class or Struct types, Out parameters and Anonymous types which returned through a Dynamic Return Type. But after Tuples, it becomes easy to represent a single set of data.
+
+For another reason, just imagine a case where you want to store the details of an Employee in just one entity, like Name, EmpID, Blood Group, Contact Number. Now the most common way that comes to the mind is to create a data structure which would take the required fields. This is where Tuples come into play. With Tuples, there is no need to create any separate data structure. Instead, for this case, you can use Tuple<T1, T2, T3, T4>.
+
+The most common data structures like Array, List, etc. are only of a specific type and can store infinite elements. But Tuples are able to store a limited number of elements i.e 8 and can be of any type.
+
+Creating a Tuple
+In C#, there are mainly 2 ways to create the tuple which are as follows:
+
+Using Constructor of Tuple Class: You can create a tuple by using the constructor which is provided by Tuple<T> class. Where you can store elements starting from one to eight with their type. But you are not allowed to store elements greater than eight in a tuple. If you try to do so then the compiler will throw an error.
+Syntax:
+
+// Constructor for single elements
+Tuple <T1>(T1)
+
+// Constructor for two elements
+Tuple <T1, T2>(T1, T2)
+.
+.
+.
+ // Constructor for eight elements
+Tuple <T1, T2, T3, T4, T5, T6, T7, TRest>(T1, T2, T3, T4, T5, T6, T
+
+
+yeild return; statement
+*******************************************************************************************************************
